@@ -1,10 +1,10 @@
 
-This site is about the relationship between technology and democracy.
+This site discusses the relationship between technology and democracy.
 
 ## Themes
 
 * online privacy
-* news media & reader comments
+* news media & public participation
 * influence of large technology companies
 * artificial intelligence & automation
 
