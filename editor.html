@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Json Editor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="infra.json"></script>
+    <script defer src="editor.js"></script>
+    <style type="text/css">
+        .coll2 div {
+            display: inline;
+        }
+        .type-array > div {
+            display: block;
+            margin-left: 2rem;
+        }
+    </style>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Json Editor
+      </h1>
+    </div>
+
+    <div id="editor">
+      <div class="tabs">
+        <ul>
+          <li v-for="(coll, k) in colls" :class="{'is-active': selection.coll == coll}"><a @click="select_coll(coll)">{{ k }}</a></li>
+        </ul>
+      </div>
+      <div class="coll2">
+        <data-item v-model="selection.coll"></data-item>
+      </div>
+    </div>
+
+  </section>
+
+  </body>
+</html>
