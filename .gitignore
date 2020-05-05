@@ -1,0 +1,13 @@
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#
+/build/venv
+.project
+.pydevproject
