@@ -40,7 +40,10 @@ class SiteBuilder:
         
         context['main'] = main
         if 'title' not in context:
-            context['title'] = filename.replace('.md', '').title()
+            context['title'] = filename.replace('.md', '')
+            if context['title'] == 'index':
+                context['title'] = os.path.basename(os.path.dirname(md_path))
+            context['title'] = context['title'].title()
         
         context['nav'] = [
             {
