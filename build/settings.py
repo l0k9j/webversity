@@ -21,5 +21,5 @@ PATH_TEMPLATES = '../content/templates/'
 PATH_TEMPLATES = resolve_path(PATH_TEMPLATES)
 
 NAVIGATION = [
-    'issues', 'framework', 'actions', 'network', 'about', 
+    'home', 'issues', 'framework', 'actions', 'network', 'about', 
 ]

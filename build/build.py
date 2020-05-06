@@ -45,7 +45,7 @@ class SiteBuilder:
         context['nav'] = [
             {
                 'path': os.path.relpath(
-                    os.path.join(settings.PATH_HTML, item),
+                    os.path.join(settings.PATH_HTML, item) if item != 'home' else '..',
                     os.path.dirname(ret) 
                 ),
                 'label': item.title(),
