@@ -3,6 +3,7 @@ import os
 import markdown
 import utils
 import re
+from jinja2 import Template
 
 class SiteBuilder:
     def build(self):
@@ -40,16 +41,21 @@ class SiteBuilder:
         context['main'] = main
         if 'title' not in context:
             context['title'] = filename.replace('.md', '').title()
+        
+        context['nav'] = [
+            {
+                'path': os.path.relpath(
+                    os.path.join(settings.PATH_HTML, item),
+                    os.path.dirname(ret) 
+                ),
+                'label': item.title(),
+            }
+            for item in settings.NAVIGATION
+        ]
 
-        # inject into base template
-        def sub_context(match):
-            ret = match.group(0)
-
-            ret = context.get(match.group(1), ret)
-
-            return ret
-
-        content = re.sub(r'{{\s*(\w+)\s*}}', sub_context, self.base_html)
+        # inject context into base template
+        template = Template(self.base_html)
+        content = template.render(**context)
 
         content = self.post_process(content)
 
