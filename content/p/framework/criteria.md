@@ -120,7 +120,7 @@ than other conditions. Movement of personal data and the information that
 can be inferred from are difficult to track. We can look at the type of 
 permissions a software requires, we can look at its code (in some cases)
 but once the data reaches remote servers it can propagate easily and 
-accidentally (or intentionally) propagate anywhere without much barrier.
+accidentally (or intentionally) without much barrier.
 
 New regulations can only go so far. GDPR was designed to give control to
 the users about their data but in practice an employer can justify passing
@@ -144,4 +144,3 @@ to the companies that have, at the core of their business model, given
 top priority to the highest standards of data privacy. Those that claim 
 zero-knowledge, (real!) end-to-end encryption, that ask for the absolute 
 minimum of information. Those that treat personal data as a toxic asset.
-
