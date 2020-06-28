@@ -1,5 +1,7 @@
 title=How to assess an app or service?
-<h2>General criteria</h2>
+<h2>Criteria</h2>
+
+These criteria promote privacy, innovation, variety in a fair and competitive market.
 
 * **privacy**: the service & producer must have a strong commitment to highest 
 standards of privacy (i.e. no tracking, minimal data capture, encryption, minimal sharing)
@@ -14,4 +16,3 @@ region; avoid geographic concentration
 * **sustainable**: a service that will last many years
 * **interoperable**: easy to move your data/settings to another service
 * **quality**: service must offer all essential features & good usability
-
