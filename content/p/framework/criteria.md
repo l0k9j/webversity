@@ -111,3 +111,37 @@ Choosing an alternative is a risk. Particularly if it is not interoperable.
 Things to look for in an alternative solution: adoption of industry standards,
 years of experience, size of its community, use of open source code, strategic
 commitment to long term development.
+
+### Privacy
+
+A lot has been said about this in recent years. This is a vast and complex
+topic. It is also a difficult criteria to assess because it is less visible
+than other conditions. Movement of personal data and the information that
+can be inferred from are difficult to track. We can look at the type of 
+permissions a software requires, we can look at its code (in some cases)
+but once the data reaches remote servers it can propagate easily and 
+accidentally (or intentionally) propagate anywhere without much barrier.
+
+New regulations can only go so far. GDPR was designed to give control to
+the users about their data but in practice an employer can justify passing
+the data to a chain of contractors under the various exemptions allowed by 
+the law. Regulators can't see the complex operations companies apply to their 
+data. Backups are cheap. Data transfer don't leave traces. Data is easily leaked. 
+Even anonymised data can be cross-referenced with other sources or special 
+patterns analysed to match them with user profiles.
+
+If all data operations left permanent traces, checking compliance
+with regulations would be feasible. This is why privacy is mainly 
+based on trust. And despite all that, despite the severe violations
+of trust done by companies like Facebook, their user base keeps growing.
+
+To assess privacy of an app, we have to look at its terms & conditions,
+the companies it involves, their history, their business model, where they
+are based, ...
+
+Although this is still a leap of faith, it might be time to give a chance
+to the companies that have, at the core of their business model, given
+top priority to the highest standards of data privacy. Those that claim 
+zero-knowledge, (real!) end-to-end encryption, that ask for the absolute 
+minimum of information. Those that treat personal data as a toxic asset.
+
