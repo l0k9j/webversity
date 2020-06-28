@@ -71,7 +71,7 @@ class SiteBuilder:
         ret = content
 
         # bulma stuff
-        if 0:
+        if 1:
             ret = re.sub(r'<h(\d)>', r'<h\1 class="title is-\1">', ret)
 
         return ret
