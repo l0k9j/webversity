@@ -3,7 +3,7 @@ title=How to assess an app or service?
 
 These criteria promote privacy, innovation, variety in a fair and competitive market.
 
-* **privacy**: the service & producer must have a strong commitment to highest 
+* **private**: the service & producer must have a strong commitment to highest 
 standards of privacy (i.e. no tracking, minimal data capture, encryption, minimal sharing)
 * **interoperable**: easy to move your data/settings to another service
 * **open source**: the entire code of the software should be public
@@ -11,13 +11,22 @@ standards of privacy (i.e. no tracking, minimal data capture, encryption, minima
 possible on your device 
 * **independent**: from influence, material benefit or connections to large
 organisations, especially from Big Tech
-* **affordable**: preferably free, preferably with no ads or teasers
+* **affordable**: must offer decent free accounts; entry-level subscriptions
+should offer good value for money and remain affordable 
 * **location**: company & service preferably located near you or in a democratic
 region; avoid geographic concentration 
 * **sustainable**: a service that will last many years
-* **quality**: service must offer all essential features & good usability
+* **usable**: service must offer all essential features with a good user experience
 
 ## Explanations
+
+### Scores
+
+The score for each factor ranges from 0 to 5.
+
+5: excellent; 4: very good; 3: ok; 2: sub-standard; 1: poor; 0: unacceptable  
+
+These are general interpretations, see below for specific details.
 
 ### Open Source
 
@@ -41,7 +50,14 @@ and "quality".
 Note that some products, like Google Chrome, are based on open source code
 but do also contain proprietary and closed-source code.
 
-### Quality
+#### scores
+
+5: fully open source - 0: mainly closed source
+
+If sensitive features of the app are closed source, the score will be lower.
+If it is difficult to obtain or verify the code, the score will be lower. 
+
+### Usability
 
 It is quite common for "alternative" apps not to reach the same level of
 quality as big tech offerings. Lack of features or sub-standard user interface
@@ -54,7 +70,14 @@ experience.
 We recommend that apps should offer at least essential features normally 
 expected by the user and no usability issue that makes the use of core
 functions a constant frustration. Unfortunately every new product will
-be lacking on those area at the beginning.  
+be lacking on those area at the beginning.
+
+#### scores
+
+5: the entry-level (e.g. free) version contains all the features
+users would expect and the user experience is great.
+
+Lower scores for lack of essential features or frustrating experience.
 
 ### Permissions
 
@@ -72,6 +95,13 @@ area you are currently standing.
 
 We recommend that apps should ask only for the minimum amount of 
 device permission to support their core functions.
+
+#### scores
+
+5: only asks for the absolute minimum set of permissions needed for its
+core functions.
+
+Lower scores for seemingly unnecessary permissions.  
 
 ### Interoperable
 
@@ -112,6 +142,12 @@ Things to look for in an alternative solution: adoption of industry standards,
 years of experience, size of its community, use of open source code, strategic
 commitment to long term development.
 
+#### scores
+
+5: the product/service has been around for many years, it is actively 
+maintained, it has a large user base & a large ecosystem or development 
+community around it. 
+
 ### Privacy
 
 A lot has been said about this in recent years. This is a vast and complex
@@ -141,6 +177,14 @@ are based, ...
 
 Although this is still a leap of faith, it might be time to give a chance
 to the companies that have, at the core of their business model, given
-top priority to the highest standards of data privacy. Those that claim 
+top priority to the privacy-first solutions. Those that claim 
 zero-knowledge, (real!) end-to-end encryption, that ask for the absolute 
 minimum of information. Those that treat personal data as a toxic asset.
+
+#### scores
+
+5: strong commitment to privacy-first policy. No-log, no tracking, 
+zero-knowledge, end-to-end encryption, doesn't need any personal data 
+(e.g. phone number, name, ...), no sharing with any third-party, 
+no profiling or advertising.
+ 

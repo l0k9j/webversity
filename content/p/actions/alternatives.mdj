@@ -4,6 +4,8 @@ apps/services and details about each one in the near future.
 Please note that the scores are subjective and indicative
 but feel free to contact us if you see something wrong.
 
+Read more about our <a href="/p/framework/criteria">assessment criteria</a>.
+
 {% for category in prods_js.category.unique() %}
 ## {{category|title}}
 
