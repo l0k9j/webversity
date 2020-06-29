@@ -1,7 +1,6 @@
 "title","dominant","link","category","privacy","opensource","developer","cost","location","quality","interoperability","sustainability","comments","since"
-"Brave",,"brave.com","desktop browser",3,5,"Brave",5,"California, US",5,,,,2016
+"Brave",,"brave.com","desktop browser",3,5,"Brave",5,"California, US",5,,,"Some controversial decisions wrt privacy",2016
 "Firefox",,"firefox.com","desktop browser",4,5,"Mozilla Foundation",5,"California, US",5,,5,"One of the rare browser not based on Chromium",2002
-"Chrome",1,"chrome.com","desktop browser",2,2,"Google",5,"California, US",5,,5,,2011
-"Epic",,"epicbrowser.com","desktop browser",5,3,"Hidden Reflex",5,"Columbia, US",,,,"Custom code can be viewed on request",2010
-"Tor",,"torproject.org","desktop browser",5,,"Tor Project",5,"Bangalore, India",3,,,"Based on Firefox",2008
-"DuckDuckGo Browser",,,"desktop browser",,,,,,,,,,
+"Chrome",1,"chrome.com","desktop browser",2,2,"Google",5,"California, US",5,,5,"Bad reputation for aggressive tracking",2011
+"Epic",,"epicbrowser.com","desktop browser",5,3,"Hidden Reflex",4,"Columbia, US; Bangalore, India ",,,,"Custom code can be viewed on request; privacy features may become premium",2010
+"Tor",,"torproject.org","desktop browser",5,5,"Tor Project",5,"Washington, US",3,,5,"Based on Firefox; Content filtering can degrade usability",2008
