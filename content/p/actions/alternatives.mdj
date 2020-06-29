@@ -1,5 +1,8 @@
 csv_prods_js=products.csv
-[Work in Progress]
+This is a work in progress, we are planning to add more
+apps/services and details about each one in the near future.
+Please note that the scores are subjective and indicative
+but feel free to contact us if you see something wrong.
 
 {% for category in prods_js.category.unique() %}
 ## {{category|title}}
@@ -10,6 +13,8 @@ csv_prods_js=products.csv
 <th>Name</th>
 <th>Privacy</th>
 <th>Open Source</th>
+<th>Cost</th>
+<th>Usability</th>
 <th>First release</th>
 </tr>
 </thead>
@@ -20,6 +25,8 @@ csv_prods_js=products.csv
 <td><a href="{{ r.link }}">{{ r.title }}</td>
 <td class="score-{{r.privacy|int}}">{{r.privacy|int}}</td>
 <td class="score-{{r.opensource|int}}">{{r.opensource|int}}</td>
+<td class="score-{{r.cost|int}}">{{r.cost|int}}</td>
+<td class="score-{{r.usability|int}}">{{r.usability|int}}</td>
 <td>{{r.since}}</td>
 </tr>
 {% endif %} 
