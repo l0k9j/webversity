@@ -18,7 +18,7 @@ class SiteBuilder:
         from pathlib import Path
         import time
         while 1:
-            for md_path in list(Path(settings.PATH_MD).rglob("*.md")):
+            for md_path in list(Path(settings.PATH_MD).rglob("*.md*")):
                 self.convert(md_path, if_new=watch)
             if watch:
                 time.sleep(1)
@@ -33,7 +33,7 @@ class SiteBuilder:
             relpath = '../index.md'
         
         ret = os.path.realpath(os.path.join(settings.PATH_HTML, relpath))
-        ret = ret.replace('.md', '.html')
+        ret = re.sub(r'\.[^.]+', '.html', ret)
 
         if if_new and utils.get_file_time(md_path) < utils.get_file_time(ret):
             return ret
@@ -46,7 +46,7 @@ class SiteBuilder:
         main, context = utils.extract_context(main)
 
         if 'title' not in context:
-            context['title'] = filename.replace('.md', '')
+            context['title'] = re.sub(r'\.[^.]*', '', filename)
             if context['title'] == 'index':
                 context['title'] = os.path.basename(os.path.dirname(md_path))
             context['title'] = context['title'].title()
