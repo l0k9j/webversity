@@ -2,14 +2,18 @@ csv_prods_js=products.csv
 [Work in Progress]
 
 {% for category in prods_js.category.unique() %}
-## {{category}}
-<table>
+## {{category|title}}
+
+<table class="table is-striped is-narrow">
+<thead>
 <tr>
-<td>Name</td>
-<td>Privacy</td>
-<td>Open Source</td>
-<td>First release</td>
+<th>Name</th>
+<th>Privacy</th>
+<th>Open Source</th>
+<th>First release</th>
 </tr>
+</thead>
+<tbody>
 {% for i, r in prods_js[prods_js['category']==category].iterrows() %}
 {% if r.dominant != 1 %}
 <tr>
@@ -20,6 +24,7 @@ csv_prods_js=products.csv
 </tr>
 {% endif %} 
 {% endfor %}
-</tr>
+</tbody>
+</table>
 {% endfor %}
 

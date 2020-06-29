@@ -4,3 +4,6 @@
 "Chrome",1,"chrome.com","desktop browser",2,2,"Google",5,"California, US",5,,5,"Bad reputation for aggressive tracking",2011
 "Epic",,"epicbrowser.com","desktop browser",4,3,"Hidden Reflex",4,"Columbia, US; Bangalore, India ",,,,"Custom code can be viewed on request; privacy features may become premium",2010
 "Tor",,"torproject.org","desktop browser",5,5,"Tor Project",5,"Washington, US",3,,5,"Based on Firefox; Content filtering can degrade usability",2008
+"Tutanota",,"tutanota.com","email",5,5,,4,"Germany",2,,,"1GB; 0-knowledge; end-to-end; no IMAP; less features on free account; no search",2011
+"ProtonMail",,"protonmail.com","email",5,5,,4,"Switzerland",3,,,"0.5GB; no-log, end-to-end, 0-knowledge",2013
+"Hushmail",,"hushmail.com","email",5,0,"Hush Communications Ltd",2,"Vancouver, Canada",,,,"end-to-end, 0-knowledge",1999
