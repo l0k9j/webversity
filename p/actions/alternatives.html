@@ -3,11 +3,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alternatives | WebVersity </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="/webversity/a/main.css">
     <link rel="stylesheet" href="/a/main.css">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@creativebulma/bulma-tooltip@1.2.0/dist/bulma-tooltip.min.css">
+
+    <script defer src="//use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- script src="//cdn.jsdelivr.com/package/npm/@creativebulma/bulma-tooltip"></script -->
+
     <!-- script defer src="infra.json"></script -->
     <!-- script defer src="editor.js"></script -->
     <style type="text/css">
@@ -93,7 +98,27 @@ but feel free to contact us if you see something wrong.</p>
 <tbody>
 
 <tr>
-<td><a href="brave.com">Brave</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ not based on Google Chromium
+➕ lots of control to user">?</a>
+<a href="firefox.com">Firefox</a>
+</td>
+<td class="score-4">4</td>
+<td class="score-5">5</td>
+<td class="score-5">5</td>
+<td class="score-5">5</td>
+<td>2004</td>
+</tr>
+
+
+
+<tr>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ privacy focused
+➕ alternative ad system
+➖ some controversial features (e.g. crypto➖rewards, past affiliate links)">?</a>
+<a href="brave.com">Brave</a>
+</td>
 <td class="score-3">3</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>
@@ -104,37 +129,38 @@ but feel free to contact us if you see something wrong.</p>
 
 
 <tr>
-<td><a href="firefox.com">Firefox</td>
-<td class="score-4">4</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ most private browser
+➕ based on Firefox
+➖ some sites block it
+➖ site usability can be very degraded">?</a>
+<a href="torproject.org">Tor</a>
+</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>
-<td>2004</td>
+<td class="score-2">2</td>
+<td>2008</td>
 </tr>
 
 
 
-
-
 <tr>
-<td><a href="epicbrowser.com">Epic</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ privacy➖first
+➕ unique privacy features
+➖ privacy features may become premium
+➖source code viewable on request">?</a>
+<a href="epicbrowser.com">Epic</a>
+</td>
 <td class="score-4">4</td>
-<td class="score-3">3</td>
+<td class="score-2">2</td>
 <td class="score-4">4</td>
 <td class="score-5">5</td>
 <td>2010</td>
 </tr>
 
 
-
-<tr>
-<td><a href="torproject.org">Tor</td>
-<td class="score-5">5</td>
-<td class="score-5">5</td>
-<td class="score-5">5</td>
-<td class="score-3">3</td>
-<td>2008</td>
-</tr>
 
 
 </tbody>
@@ -155,18 +181,11 @@ but feel free to contact us if you see something wrong.</p>
 <tbody>
 
 <tr>
-<td><a href="tutanota.com">Tutanota</td>
-<td class="score-5">5</td>
-<td class="score-5">5</td>
-<td class="score-4">4</td>
-<td class="score-2">2</td>
-<td>2011</td>
-</tr>
-
-
-
-<tr>
-<td><a href="protonmail.com">ProtonMail</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="free account 0.5GB
+➕ no➖logs, 0➖knowledge">?</a>
+<a href="protonmail.com">ProtonMail</a>
+</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>
 <td class="score-4">4</td>
@@ -177,7 +196,58 @@ but feel free to contact us if you see something wrong.</p>
 
 
 <tr>
-<td><a href="hushmail.com">Hushmail</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="free account 1GB
+➕ 0➖knowledge
+➖ no IMAP
+ ➖ free account lack features
+ ➖ no search">?</a>
+<a href="tutanota.com">Tutanota</a>
+</td>
+<td class="score-5">5</td>
+<td class="score-5">5</td>
+<td class="score-5">5</td>
+<td class="score-2">2</td>
+<td>2011</td>
+</tr>
+
+
+
+<tr>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="minimum 1euro/m for 2GB (➕ 0.25euro/GB/m)
+➖ no free account">?</a>
+<a href="posteo.de">Posteo</a>
+</td>
+<td class="score-5">5</td>
+<td class="score-5">5</td>
+<td class="score-4">4</td>
+<td class="score--1">-1</td>
+<td>2009</td>
+</tr>
+
+
+
+<tr>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="free account 0.5GB
+➖ code reviewable on request only">?</a>
+<a href="mailfence.com">MailFence</a>
+</td>
+<td class="score-5">5</td>
+<td class="score-1">1</td>
+<td class="score-4">4</td>
+<td class="score--1">-1</td>
+<td>1999</td>
+</tr>
+
+
+
+<tr>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ 0➖knowledge">?</a>
+<a href="hushmail.com">Hushmail</a>
+</td>
 <td class="score-5">5</td>
 <td class="score-0">0</td>
 <td class="score-2">2</td>
@@ -204,7 +274,16 @@ but feel free to contact us if you see something wrong.</p>
 <tbody>
 
 <tr>
-<td><a href="e.foundation">/e/ OS</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="➕ installs in 30 mins (good instructions)
+➕ fully android compatible
+➕ good UI,UX
+➕ minimal or no google dependencies
+➕ good choice of default apps
+➕ all apps are removable
+➖ device support varies (e.g. camera)">?</a>
+<a href="e.foundation">/e/ OS</a>
+</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>
 <td class="score-5">5</td>

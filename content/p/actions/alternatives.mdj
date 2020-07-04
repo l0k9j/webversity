@@ -24,7 +24,10 @@ Read more about our <a href="/p/framework/criteria">assessment criteria</a>.
 {% for i, r in prods_js[prods_js['category']==category].iterrows() %}
 {% if r.dominant != 1 %}
 <tr>
-<td><a href="{{ r.link }}">{{ r.title }}</td>
+<td>
+<a class="tooltip has-tooltip-right" data-tooltip="{{r.comments|replace('|', '\n')|replace('+', '➕')|replace('-', '➖')}}">?</a>
+<a href="{{ r.link }}">{{ r.title }}</a>
+</td>
 <td class="score-{{r.privacy|int}}">{{r.privacy|int}}</td>
 <td class="score-{{r.opensource|int}}">{{r.opensource|int}}</td>
 <td class="score-{{r.cost|int}}">{{r.cost|int}}</td>

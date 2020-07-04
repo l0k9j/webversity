@@ -125,6 +125,11 @@ dominant companies to lock their user's content in and keep their customers.
 Interoperability is beneficial for new-comers (and thus for competition) and
 users but a threat to dominant vendors.
 
+#### scores
+
+5: all of user data can be imported and exported using industry standards,
+in a simple & fast way.
+
 ### Sustainable
 
 Moving an account from one service to another is a hassle. When we open 
@@ -184,7 +189,10 @@ minimum of information. Those that treat personal data as a toxic asset.
 #### scores
 
 5: strong commitment to privacy-first policy. No-log, no tracking, 
-zero-knowledge, end-to-end encryption, doesn't need any personal data 
-(e.g. phone number, name, ...), no sharing with any third-party, 
+zero-knowledge, end-to-end encryption, doesn't ask personal data to use
+the system (e.g. phone number, name, ...), no sharing with any third-party, 
 no profiling or advertising.
- 
+
+Reputation and track record is also taken into account. Mistakes happen
+but discrepancies between public message and actions, lack of aknowledgment
+of wrongdoing or history for sneaky practices will be reflected in the score.
