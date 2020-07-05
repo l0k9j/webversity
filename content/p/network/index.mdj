@@ -1,0 +1,21 @@
+title=Related initiatives
+csv_net_js=networks.csv
+
+The list below contains links to various projects or interest groups mainly concerned with
+the social impact of technologies. This selection has a particular focus on the
+groups that claim to work for the defense of human rights or towards positive
+social progress.
+
+We provide a short summary of their mission statement, in most case it has been
+adapted from statements we found on their site.
+
+We are not affiliated to any of them and we do not necessarily support their
+objectives or views. We encourage the visitors to check their sources of
+funding & the position of their leaders to better understand their motivations
+and influences.
+
+{% for i, site in net_js.iterrows() %}
+**<a target="_blank" href="//{{ site.url }}">{{site.title}} ({{site.founded|int|default('?')}})</a>**
+
+{{site.description}}
+{% endfor %}
