@@ -31,3 +31,16 @@ Enable "do no track", disable "third party cookies".
 * **never** use the same password for more than one account
 * use short **unique** phrases rather than single word
 * never share a password with anyone else. If you did, change it now
+* for more sensitive services (e.g. primary email account) it's better to
+use a 2-factor authentication app (e.g. Aegis or Authy) rather than give away
+your phone number or other other personal details
+
+## Email
+
+* Gmail reads your email for marketing purpose, so do many other providers.
+Many providers make money by using private information for advertising;
+* New generation of email services such a Tutanota, Posteo, ProtonMail are
+less convenient than Gmail, Yahoo or Outlook but they are a league ahead
+when it comes to the protection of your privacy;
+* It can be laborious to switch provider but you can do it gradually, 
+starting with new contacts or the most sensitive ones.
