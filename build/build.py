@@ -40,7 +40,7 @@ class SiteBuilder:
 
         os.makedirs(os.path.dirname(ret), exist_ok=True)
 
-        main = utils.read_file(md_path)
+        main = utils.extrapolate_md(md_path)
 
         # extract context definitions from the source file
         main, context = utils.extract_context(main)
@@ -56,7 +56,7 @@ class SiteBuilder:
                 'path': os.path.relpath(
                     os.path.join(settings.PATH_HTML, item if item != 'home' else '..'),
                     os.path.dirname(ret) 
-                ),
+                ).replace(r'\\', '/'),
                 'label': item.title(),
             }
             for item in settings.NAVIGATION

@@ -2,6 +2,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if updated %}
+    <meta property="article:modified_time" content="{{updated.isoformat()}}">
+    {% endif %}
+
     <title>{{ title }} | WebVersity </title>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <link rel="stylesheet" href="/webversity/a/main.css">
@@ -56,6 +61,13 @@
       <div class="content">
         {{ main }}
       </div>
+
+      {% if updated %}
+        <br>
+        <p><i>Updated
+          <time datetime="{{updated.strftime('%Y-%m-%d')}}">{{updated.strftime('%-d %b %Y')}}</time>
+        </i></p>
+      {% endif %}
 
     </div>
   </section>
