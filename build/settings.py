@@ -17,7 +17,7 @@ def resolve_path(path, make=False):
 
 PATH_MD = '../content/p/'
 PATH_MD = resolve_path(PATH_MD)
-PATH_HTML = '..'
+PATH_HTML = '../docs/'
 PATH_HTML = resolve_path(PATH_HTML, True)
 PATH_TEMPLATES = '../content/templates/'
 PATH_TEMPLATES = resolve_path(PATH_TEMPLATES)

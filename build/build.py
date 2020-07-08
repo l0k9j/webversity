@@ -37,7 +37,7 @@ class SiteBuilder:
 
         class Handler(http.server.SimpleHTTPRequestHandler):
             def __init__(self, *args, **kwargs):
-                super().__init__(*args, directory='..', **kwargs)
+                super().__init__(*args, directory=settings.PATH_HTML, **kwargs)
 
             def translate_path(self, path):
                 ret = super().translate_path(path)
