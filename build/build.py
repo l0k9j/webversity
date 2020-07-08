@@ -12,7 +12,56 @@ class SiteBuilder:
     def __init__(self):
         self.finc = 0
 
-    def build(self, watch=False):
+    def process(self, action=None):
+        show_help = True
+
+        if action:
+            method = getattr(self, 'action_'+action, None)
+            if method:
+                show_help = False
+                method()
+                print('done')
+
+        if show_help:
+            for m in dir(self):
+                if m.startswith('action_'):
+                    name = m.replace('action_', '')
+                    doc = getattr(self, m).__doc__
+                    print(name)
+                    print('  '+doc)
+
+    def action_serve(self):
+        '''Serve your website on your computer for testing purpose'''
+        import http.server
+        import socketserver
+
+        class Handler(http.server.SimpleHTTPRequestHandler):
+            def __init__(self, *args, **kwargs):
+                super().__init__(*args, directory='..', **kwargs)
+
+            def translate_path(self, path):
+                # if self.path == '/':
+                #     self.path = '/simplehttpwebpage_content.html'
+                ret = super().translate_path(path)
+                if not ret.endswith('/'):
+                    ret += '.html'
+                print(path, ret)
+                return ret
+
+        class Server(socketserver.TCPServer):
+            allow_reuse_address = True
+
+        with Server(('', settings.TEST_PORT), Handler) as httpd:
+            print('localhost:{} [CTRL+C to quit]'.format(settings.TEST_PORT))
+            httpd.serve_forever()
+
+    def action_watch(self):
+        '''Rebuild the site automatically each time a file has changed'''
+        print('waiting for changes... [CTRL+C to quit]')
+        self.action_build(watch=True)
+
+    def action_build(self, watch=False):
+        '''Build all the html pages from the markdown sources'''
         self.base_html = utils.read_file(os.path.join(settings.PATH_TEMPLATES, 'base.html'))
 
         from pathlib import Path
@@ -33,7 +82,7 @@ class SiteBuilder:
             relpath = '../index.md'
         
         ret = os.path.realpath(os.path.join(settings.PATH_HTML, relpath))
-        ret = re.sub(r'\.[^.]+', '.html', ret)
+        ret = re.sub(r'\.[^.]+', settings.HTML_EXTENSION, ret)
 
         if if_new and utils.get_file_time(md_path) < utils.get_file_time(ret):
             return ret
@@ -89,7 +138,8 @@ class SiteBuilder:
         return ret
 
 
-
 sb = SiteBuilder()
-watch = 'watch' in sys.argv
-sb.build(watch=watch)
+action = ''
+if len(sys.argv) > 1:
+    action = sys.argv[1]
+sb.process(action=action)

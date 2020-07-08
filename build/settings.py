@@ -24,6 +24,10 @@ PATH_TEMPLATES = resolve_path(PATH_TEMPLATES)
 PATH_DATA = '../content/data/'
 PATH_DATA = resolve_path(PATH_DATA, True)
 
+HTML_EXTENSION = '.html'
+
 NAVIGATION = [
     'home', 'issues', 'framework', 'actions', 'network', 'about', 'contact',
 ]
+
+TEST_PORT = 8080

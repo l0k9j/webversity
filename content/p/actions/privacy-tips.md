@@ -18,8 +18,8 @@ only for the site you trust and support (e.g. your favourite news site)
 * Chrome has a very bad reputation for privacy. Use it **only** for Google 
 services: e.g. Gmail, Google Drive, Google Doc.
 * Use another **privacy-first** browser for everything else (including web searches).
-[Brave](brave.com) is almost identical to Chrome but more committed to your privacy. 
-[Firefox](firefox.com) is also an excellent option as it champions an open and diverse Internet;
+[Brave](//brave.com) is almost identical to Chrome but more committed to your privacy. 
+[Firefox](//firefox.com) is also an excellent option as it champions an open and diverse Internet;
 * Switch to other search engine than Google Search or Bing. e.g. DuckDuckGo,
 StartPage, Qwant;
 * Review your browser settings. Be very conservative. 
