@@ -17,35 +17,35 @@ Visual guides: [Quick (Guiding Tech)](//www.guidingtech.com/change-windows-10-pr
 
 ## Browser
 
-* Uninstall all non-essential extensions (extensions can spy on you)
-* Install a reliable add blocker extension (e.g. uBlock Origin) and disable it
-only for the site you trust and support (e.g. your favourite news site)
-* Chrome has a very bad reputation for privacy. Use it **only** for Google 
-services: e.g. Gmail, Google Drive, Google Doc.
-* Use another **privacy-first** browser for everything else (including web searches).
-[Brave](//brave.com) is almost identical to Chrome but more committed to your privacy. 
-[Firefox](//firefox.com) is also an excellent option as it champions an open and diverse Internet;
-* Switch to other search engine than Google Search or Bing. e.g. DuckDuckGo,
-StartPage, Qwant;
-* Review your browser settings. Be very conservative. 
-Especially the "Privacy and Security section" and the cookie options.
-Enable "do no track", disable "third party cookies".
+* Uninstall all non-essential **extensions** 
+[[why](//www.howtogeek.com/188346/why-browser-extensions-can-be-dangerous-and-how-to-protect-yourself/)]
+* Install a reliable **ad-blocker** extension (such as [uBlock Origin](https://getublock.com/)) 
+and disable it only on the sites you trust and support (e.g. your favourite news site)
+* Chrome has a very bad reputation for privacy. Use it **only** to access Google 
+services such as Gmail, Google Drive, Google Doc.
+* Use another **privacy-first browser** for everything else (including web searches).
+[Firefox](//firefox.com) is an excellent choice, 
+[Brave](//brave.com) is very good if prefer a Chrome look-alike;
+* Google **Search**, Bing, Yahoo or Yandex track your searches. 
+Instead use privacy-first engines like Qwant, Duckduckgo or StartPage;
+* Review your **browser settings**. 
+Especially the "Privacy and Security". Also enable "do no track" 
+and disable "third party cookies".
 
 ## Passwords
 
-* **never** use the same password for more than one account
-* use short **unique** phrases rather than single word
-* never share a password with anyone else. If you did, change it now
-* for more sensitive services (e.g. primary email account) it's better to
-use a 2-factor authentication app (e.g. Aegis or Authy) rather than give away
-your phone number or other other personal details
+* **never** use the same password for more than one account;
+* use short **unique** phrases rather than a single word;
+* **never share** a password with anyone else. If you did, change it now!
+* for more sensitive services (e.g. main email account) it's better to
+use a **2-factor** authentication app (e.g. Aegis or Authy) rather than to give 
+away your phone number or other other personal details;
 
 ## Email
 
-* Gmail reads your email for marketing purpose, so do many other providers.
-Many providers make money by using private information for advertising;
-* New generation of email services such a Tutanota, Posteo, ProtonMail are
-less convenient than Gmail, Yahoo or Outlook but they are a league ahead
-when it comes to the protection of your privacy;
+* Gmail reads your email for marketing purpose, so do many other providers
+to make money with your private information for advertising purpose;
+* **New generation** of email services such a Tutanota, Posteo, ProtonMail 
+are designed especially to keep your communication secure & private;
 * It can be laborious to switch provider but you can do it gradually, 
 starting with new contacts or the most sensitive ones.
