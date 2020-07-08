@@ -7,7 +7,7 @@ small businesses or a more healthy & dynamic economy?
 Do you prefer innovation to be built from the ground up rather than our 
 (technological) future written for us by a few powerful corporations?
 
-### <a href="privacy-tips">Simple privacy tips that will make a big difference</a>
+### <a href="privacy-tips">Simple tips to reclaim your digital privacy</a>
 ### <a href="alternatives">Switch from Big Tech to better tech</a>
 
 ## I'm a journalist or tech writers

@@ -1,4 +1,6 @@
 title=Simple tips to improve your digital privacy
+created=2020-07-08T20:41:57.664672
+updated=2020-07-08T20:41:57.664672
 
 [This is a work in progress, we'll improve this guide over time]
 
@@ -30,7 +32,7 @@ services such as Gmail, Google Drive, Google Doc.
 Instead use privacy-first engines like Qwant, Duckduckgo or StartPage;
 * Review your **browser settings**. 
 Especially the "Privacy and Security". Also enable "do no track" 
-and disable "third party cookies".
+and disable "third party cookies", and autocomplete searches.
 
 ## Passwords
 
@@ -40,6 +42,8 @@ and disable "third party cookies".
 * for more sensitive services (e.g. main email account) it's better to
 use a **2-factor** authentication app (e.g. Aegis or Authy) rather than to give 
 away your phone number or other other personal details;
+* **never** answer security questions in the same way (e.g. name of your first
+pet, your first car, etc.);
 
 ## Email
 
@@ -48,4 +52,18 @@ to make money with your private information for advertising purpose;
 * **New generation** of email services such a Tutanota, Posteo, ProtonMail 
 are designed especially to keep your communication secure & private;
 * It can be laborious to switch provider but you can do it gradually, 
-starting with new contacts or the most sensitive ones.
+starting with new contacts or the most sensitive ones;
+* Never respond to blackmail from strangers. If they insist, report them;
+* Send **personal or sensitive information** only to people you know and trust, 
+if possible zip and encrypt personal documents (e.g. photo, etc.) and ask them 
+to delete after use;
+
+## Messaging
+
+* Just like emails and browsers, the mainstream messaging clients such as
+Whatsapp are often the worse. Even if they claim their system is secure, 
+most for-profit organisations collect and exploit your data;
+* Use privacy-first alternatives such as Signal or Telegram;
+* Any message you send can potentially be recorded, leaked or used against you, 
+so if you have anything sensitive to say it might be easier to think twice
+before sending. Discrete face-to-face conversations are more forgiving;
