@@ -1,3 +1,15 @@
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.05rem;
+}
+footer.footer {
+    margin-top: auto;
+    padding-bottom: 2rem;
+    background-color: #ede8ff;
+}
 .home {
     color: white;
     background-color: black;
@@ -51,15 +63,15 @@ a.tooltip {
     text-align: center;
 }
 
-
-html,
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.title.is-2 {
+  font-size: 2.1rem;
 }
-footer.footer {
-    margin-top: auto;
-    padding-bottom: 2rem;
-    background-color: #ede8ff;
+.title.is-3 {
+  font-size: 1.5rem;
+}
+.title.is-4 {
+  font-size: 1.3rem;
+}
+.title.is-5 {
+  font-size: 1.1rem;
 }

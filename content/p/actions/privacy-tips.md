@@ -4,10 +4,16 @@ title=Simple tips to improve your digital privacy
 
 ## Windows
 
-* Go to your "Privacy Settings", review all the options one by one, untick 
+* Go to your "**Privacy Settings**", review all the options one by one, untick 
 anything that is not absolutely needed. This can take up 5 minutes but it's worth it.
-* Go to "Apps and Features" and uninstall all the apps you don't use
-* If you don't use Cortana, go to "Cortana & Search Settings" then untick everything
+* Go to "**Apps** and Features" and uninstall all non-essential apps
+* If you don't use **Cortana**, go to "Cortana & Search Settings" then untick everything
+
+Visual guides: [Quick (Guiding Tech)](//www.guidingtech.com/change-windows-10-privacy-settings/)
+|
+[Detailed (Restore Privacy)](//restoreprivacy.com/windows-10-privacy/)
+|
+[Thorough (PixelPrivacy)](//pixelprivacy.com/resources/windows-privacy-settings/)
 
 ## Browser
 

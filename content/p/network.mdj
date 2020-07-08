@@ -14,8 +14,12 @@ objectives or views. We encourage the visitors to check their sources of
 funding & the position of their leaders to better understand their motivations
 and influences.
 
-{% for i, site in net_js.iterrows() %}
-**<a target="_blank" href="//{{ site.url }}">{{site.title}} ({{site.founded|int|default('?')}})</a>**
+{% for focus in net_js.focus.unique() %}
+## {{focus|title}}
+
+{% for i, site in net_js[net_js['focus']==focus].sort_values(by=['founded']).iterrows() %}
+### **<a target="_blank" href="//{{ site.url }}">{{site.title}} ({{site.founded|int|default('?')}}, {{site.headquarters}})</a>**
 
 {{site.description}}
+{% endfor %}
 {% endfor %}
