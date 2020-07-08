@@ -40,12 +40,9 @@ class SiteBuilder:
                 super().__init__(*args, directory='..', **kwargs)
 
             def translate_path(self, path):
-                # if self.path == '/':
-                #     self.path = '/simplehttpwebpage_content.html'
                 ret = super().translate_path(path)
                 if not ret.endswith('/'):
                     ret += '.html'
-                print(path, ret)
                 return ret
 
         class Server(socketserver.TCPServer):
@@ -79,7 +76,7 @@ class SiteBuilder:
         
         relpath = os.path.relpath(md_path, settings.PATH_MD)
         if relpath == 'home.md':
-            relpath = '../index.md'
+            relpath = 'index.md'
         
         ret = os.path.realpath(os.path.join(settings.PATH_HTML, relpath))
         ret = re.sub(r'\.[^.]+', settings.HTML_EXTENSION, ret)
@@ -99,13 +96,24 @@ class SiteBuilder:
             if context['title'] == 'index':
                 context['title'] = os.path.basename(os.path.dirname(md_path))
             context['title'] = context['title'].title()
-        
+
+        def get_rel_nav_path(item, relative):
+            ret = os.path.relpath(
+                os.path.join(
+                    settings.PATH_HTML, item if item != 'home' else '..'
+                ),
+                os.path.dirname(relative)
+            ).replace(r'\\', '/')
+
+            disk_path = os.path.join(settings.PATH_MD, item)
+            if os.path.exists(disk_path) and os.path.isdir(disk_path):
+                ret += '/'
+
+            return ret
+
         context['nav'] = [
             {
-                'path': os.path.relpath(
-                    os.path.join(settings.PATH_HTML, item if item != 'home' else '..'),
-                    os.path.dirname(ret) 
-                ).replace(r'\\', '/'),
+                'path': get_rel_nav_path(item, ret),
                 'label': item.title(),
             }
             for item in settings.NAVIGATION
