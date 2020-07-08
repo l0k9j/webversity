@@ -4,9 +4,8 @@ title=Simple tips to improve your digital privacy
 
 ## Windows
 
-* Go to your "Privacy Settings" and review everything one by one. 
-This can take up 5 minutes but its worth it. We recommend you untick everything
-unless its really needed
+* Go to your "Privacy Settings", review all the options one by one, untick 
+anything that is not absolutely needed. This can take up 5 minutes but it's worth it.
 * Go to "Apps and Features" and uninstall all the apps you don't use
 * If you don't use Cortana, go to "Cortana & Search Settings" then untick everything
 
