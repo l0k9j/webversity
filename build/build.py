@@ -41,7 +41,7 @@ class SiteBuilder:
 
             def translate_path(self, path):
                 ret = super().translate_path(path)
-                if not ret.endswith('/'):
+                if not ret.endswith('/') and '.' not in ret:
                     ret += '.html'
                 return ret
 
@@ -100,7 +100,7 @@ class SiteBuilder:
         def get_rel_nav_path(item, relative):
             ret = os.path.relpath(
                 os.path.join(
-                    settings.PATH_HTML, item if item != 'home' else '..'
+                    settings.PATH_HTML, item
                 ),
                 os.path.dirname(relative)
             ).replace(r'\\', '/')

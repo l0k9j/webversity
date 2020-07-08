@@ -27,7 +27,7 @@ PATH_DATA = resolve_path(PATH_DATA, True)
 HTML_EXTENSION = '.html'
 
 NAVIGATION = [
-    'home', 'issues', 'framework', 'actions', 'network', 'about', 'contact',
+    'index', 'issues', 'framework', 'actions', 'network', 'about', 'contact',
 ]
 
 TEST_PORT = 8080

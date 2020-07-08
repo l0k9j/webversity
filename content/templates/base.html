@@ -43,7 +43,11 @@
       <div class="navbar-start">
         {% for item in nav %}
           <a href="{{ item.path }}" class="navbar-item">
-            {{ item.label }}
+            {% if item.label == 'Index' %}
+            <span class="home">WebVersity</span>
+            {% else %}
+              {{ item.label }}
+            {% endif %}
           </a>
         {% endfor %}
       </div>
@@ -71,6 +75,14 @@
 
     </div>
   </section>
+
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      WebVersity is a Beta site launched in 2020 | We don't use cookie, we don't collect any data.
+    </p>
+  </div>
+</footer>
 
   </body>
 </html>

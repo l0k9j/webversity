@@ -1,3 +1,9 @@
+.home {
+    color: white;
+    background-color: black;
+    padding: 0.2em;
+}
+
 a {
     color: inherit;
     border-bottom: 1px dashed;
@@ -8,7 +14,9 @@ a:hover {
 nav.navbar a {
     border-bottom: 0px;
 }
-
+nav.navbar{
+    background-color: #d8cfff;
+}
 .score-5 {
     background-color: #84fd7f;
 }
@@ -41,4 +49,16 @@ a.tooltip {
     padding: 1px 7px;
     margin: 2px;
     text-align: center;
+}
+
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer.footer {
+    margin-top: auto;
+    padding-bottom: 2rem;
 }
