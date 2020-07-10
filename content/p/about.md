@@ -4,9 +4,10 @@ This site discusses the relationship between technology and democracy.
 ## Themes
 
 * online privacy
-* news media & reader engagement
+* direction of innovation
 * influence of large technology companies
 * artificial intelligence & automation
+* news media & reader engagement
 
 ## What we promote
 
