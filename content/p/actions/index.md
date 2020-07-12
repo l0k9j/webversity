@@ -19,8 +19,8 @@ Suggestions:
 
 * block all third-party cookies by default
 * zero-tolerance for fingerprinting: 
-  * offer users different levels of protection in your settings
-  * the most advanced should have generic languages preferences, 
+    * offer users different levels of protection in your settings
+    * the most advanced should have generic languages preferences, 
   alignment to closest popular screen dimensions, generic client signature
   (browser type, version and operating system), generic fonts list, ...
 * don't hide your privacy settings into deep or convoluted menus

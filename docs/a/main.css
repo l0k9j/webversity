@@ -18,7 +18,7 @@ footer.footer {
 
 a {
     color: inherit;
-    border-bottom: 1px dashed;
+    border-bottom: 3px dashed #9981ff;
 }
 a:hover {
     border-bottom-style: solid;
@@ -61,6 +61,7 @@ a.tooltip {
     padding: 1px 7px;
     margin: 2px;
     text-align: center;
+    border-bottom: inherit;
 }
 
 .title.is-2 {

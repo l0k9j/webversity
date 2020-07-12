@@ -1,10 +1,16 @@
 csv_prods_js=products.csv
+created=2020-07-01T18:46:39.374288
+updated=2020-07-12T16:45:08.052387
 This is a work in progress, we are planning to add more
 apps/services and details about each one in the near future.
 Please note that the scores are subjective and indicative
-but feel free to contact us if you see something wrong.
+but feel free to contact us if you greatly disagree with a score.
 
 Read more about our <a href="/p/framework/criteria">assessment criteria</a>.
+
+Recommended places to search for alternative applications:
+[AlternativeTo](https://alternativeto.net/) and
+[Slant](https://www.slant.co/options/5225/alternatives/~google-chrome-alternatives)
 
 {% for category in prods_js.category.unique() %}
 ## {{category|title}}

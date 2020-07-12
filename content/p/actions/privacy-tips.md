@@ -65,5 +65,14 @@ Whatsapp are often the worse. Even if they claim their system is secure,
 most for-profit organisations collect and exploit your data;
 * Use privacy-first alternatives such as Signal or Telegram;
 * Any message you send can potentially be recorded, leaked or used against you, 
-so if you have anything sensitive to say it might be easier to think twice
+so if you have anything sensitive to say/send it might be best to think twice
 before sending. Discrete face-to-face conversations are more forgiving;
+
+## Mobile
+
+* limit the number of native apps. Remove all junk or rarely used apps from your
+phone. Many services (e.g. news) have very good web equivalent;
+* also review all your iOS or Android settings from time to time;
+* don't give away you mobile number to companies unless it's absolutely necessary. 
+It's a pain to change number, once its leaked to careless parties it can fall 
+into any hand and be used to identify you or pester you;
