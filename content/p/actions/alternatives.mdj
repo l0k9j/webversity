@@ -9,8 +9,9 @@ but feel free to contact us if you greatly disagree with a score.
 Read more about our <a href="/p/framework/criteria">assessment criteria</a>.
 
 Recommended places to search for alternative applications:
-[AlternativeTo](https://alternativeto.net/) and
-[Slant](https://www.slant.co/options/5225/alternatives/~google-chrome-alternatives)
+[AlternativeTo](//alternativeto.net/),
+[Slant](//www.slant.co/options/5225/alternatives/~google-chrome-alternatives)
+and the excellent privacy-focused reviews from [Restore Privacy](//restoreprivacy.com)
 
 {% for category in prods_js.category.unique() %}
 ## {{category|title}}
