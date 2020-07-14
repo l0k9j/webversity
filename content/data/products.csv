@@ -12,3 +12,4 @@
 "MailFence",,,"mailfence.com","email",5,1,"ContactOffice Group SA",4,"Brussels, Belgium",-1,,5,1999,"free account 0.5GB|- code reviewable on request only"
 "Hushmail",,,"hushmail.com","email",5,0,"Hush Communications Ltd",2,"Vancouver, Canada",-1,,5,1999,"+ 0-knowledge"
 "/e/ OS",,"2020-06","e.foundation","mobile os",5,5,"e Foundation",5,"Paris, France",4,,,2018,"+ installs in 30 mins (good instructions)|+ fully android compatible|+ good UI,UX|+ minimal or no google dependencies|+ good choice of default apps|+ all apps are removable|- device support varies (e.g. camera)"
+"GoatCounter",,"2020-07","goatcounter.com","web analytics",4,5,"GoatCounter.com",5,"Netherlands",3,,,2019,"+ focus on anonymity|+ no cookies, minimal info collection|+ lightweight, easy to use system|for essential stats|- capture screen size, which might be identifiable on some OS/devices"

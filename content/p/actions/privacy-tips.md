@@ -28,11 +28,11 @@ services such as Gmail, Google Drive, Google Doc.
 * Use another **privacy-first browser** for everything else (including web searches).
 [Firefox](//firefox.com) is an excellent choice, 
 [Brave](//brave.com) is very good if prefer a Chrome look-alike;
-* Google **Search**, Bing, Yahoo or Yandex track your searches. 
-Instead use privacy-first engines like Qwant, Duckduckgo or StartPage;
 * Review your **browser settings**. 
 Especially the "Privacy and Security". Also enable "do no track" 
 and disable "third party cookies", and autocomplete searches.
+* Google **Search**, Bing, Yahoo or Yandex track your searches. 
+Instead use privacy-first engines like Qwant or Duckduckgo;
 
 ## Passwords
 

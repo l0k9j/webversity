@@ -1,24 +1,27 @@
-"Technology","Clients","ISP","Nodes","DNS Server","Web page Server","3rd party","VPN/Proxy",,
-"Chrome default settings http","DHC","IDHC","IDHC","ID","IDHCF","IDHfc",,,
-"Chrome https","DHC","ID","ID","ID","IDHCF","IDHfc",,,
-"Chrome incognito window","/","ID","ID","ID","IDHCF","IDHfc",,,
-"Anonymous web proxy (HTTPS both ways)","DHC","Id","Id + iD","Id + iD","iDHCF","IDHfc","IDHCF",,"! limited to some http requests"
-"VPN","DHC","I","i","iD","iDHCF","iDHfc","IDHCF",,"! superior to proxy because lower level (all net coms)"
-"Brave with Tor",,,,,,,,,
-"Tor network",,,,,,,,,
+"Technology","Clients","ISP","Nodes","DNS Server","Web page Server","3rd party","VPN/Proxy",,"notes"
+"HTTP","DHBC","IDHBC","IDHBC","ID","IDHBC*F","IDHC*",,,
+"HTTPS","DHBC","ID","ID","ID","IDHBC*F","IDHC*",,,
+,,,,,,,,,
+"Incognito (https)","/","ID","ID","ID","IDHBC#F","IDHC#",,,
+,,,,,,,,,
+"VPN (https)","DHBC","Id","Id or iD","iD","iDHBC*F","iDHC*","IDHC",,"! superior to proxy because lower level (all net coms tunnelled) !!! need to clear session / incognito; Main pros: ISP out of loop, bypass region locks, sites can't geolocate you."
+,,,,,,,,,
+"Brave with Tor","/","Id","Id or iD","iD","iDHBC#F","iDHC#","?",,"kind of free incognito vpn; slower then vpn; not as private as Tor"
+"Tor network","DHBC","Id","Id or iD","iD","iDhBC#f","iDhC#","IDHC",,"true anonymity"
+,,,,,,,,,
+"Anonymous web proxy (HTTPS both ways)","DHB","Id","Id + iD","Id + iD","iDHCF","IDHfc","IDHCF",,"! limited to some http requests, so not reliable. Also not practical and reliable. Only for one off. + different user-agent?"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,"DoH","https everywhere","3rd party c","forget",,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
-"nodes",,,,,,,,,
-"dns server",,,,,,,,,
-"web server",,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
-,,,,,,,,,
-,,,,"()","Content",,,,
 ,"Ip","Domain","Headers","Cookies","Body","Fingerprints",,,
 ,,,,,,,,,
 ,"IP",,"bad","but shared and leased",,,,,
