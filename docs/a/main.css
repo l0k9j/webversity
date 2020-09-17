@@ -29,6 +29,11 @@ nav.navbar a {
 nav.navbar{
     background-color: #d8cfff;
 }
+a.navbar-item.is-selected {
+    background-color: white;
+}
+
+
 .score-5 {
     background-color: #84fd7f;
 }

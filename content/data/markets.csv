@@ -1,0 +1,8 @@
+market,share,product,producer,since,units,Observed,source
+Browser,66,Chrome,Google,,,01/08/20,https://gs.statcounter.com/browser-market-share/desktop-mobile-tablet/worldwide/#monthly-201908-202008
+Browser,17,Safari,Apple,,,01/08/20,https://gs.statcounter.com/browser-market-share/desktop-mobile-tablet/worldwide/#monthly-201908-202008
+Browser,4,Firefox,Mozilla,,,01/08/20,https://gs.statcounter.com/browser-market-share/desktop-mobile-tablet/worldwide/#monthly-201908-202008
+Operating system (desktop),77,Windows,Microsoft,,,01/08/20,https://gs.statcounter.com/os-market-share/desktop/worldwide#monthly-201908-202008
+Operating system (desktop),17,OS X,Apple,,,01/08/20,https://gs.statcounter.com/os-market-share/desktop/worldwide#monthly-201908-202008
+Operating system (mobile),74,Android,Google,,,01/08/20,https://gs.statcounter.com/os-market-share/mobile/worldwide#monthly-201908-202008
+Operating system (mobile),25,iOS,Apple,,,01/08/20,https://gs.statcounter.com/os-market-share/mobile/worldwide#monthly-201908-202008

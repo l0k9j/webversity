@@ -81,7 +81,7 @@ class SiteBuilder:
         ret = os.path.realpath(os.path.join(settings.PATH_HTML, relpath))
         ret = re.sub(r'\.[^.]+', settings.HTML_EXTENSION, ret)
 
-        if if_new and utils.get_file_time(md_path) < utils.get_file_time(ret):
+        if if_new and utils.are_sources_older_than_target(md_path, ret):
             return ret
 
         os.makedirs(os.path.dirname(ret), exist_ok=True)
@@ -92,29 +92,13 @@ class SiteBuilder:
         main, context = utils.extract_context(main)
 
         if 'title' not in context:
-            context['title'] = re.sub(r'\.[^.]*', '', filename)
-            if context['title'] == 'index':
-                context['title'] = os.path.basename(os.path.dirname(md_path))
-            context['title'] = context['title'].title()
-
-        def get_rel_nav_path(item, relative):
-            ret = os.path.relpath(
-                os.path.join(
-                    settings.PATH_HTML, item
-                ),
-                os.path.dirname(relative)
-            ).replace(r'\\', '/')
-
-            disk_path = os.path.join(settings.PATH_MD, item)
-            if os.path.exists(disk_path) and os.path.isdir(disk_path):
-                ret += '/'
-
-            return ret
+            context['title'] = utils.get_title_from_filepath(md_path)
 
         context['nav'] = [
             {
-                'path': get_rel_nav_path(item, ret),
+                'path': utils.get_rel_nav_path(item, ret),
                 'label': item.title(),
+                'is_selected': item in relpath.split('/')[0],
             }
             for item in settings.NAVIGATION
         ]
@@ -135,6 +119,7 @@ class SiteBuilder:
         self.finc += 1
 
         print(self.finc, ret)
+
 
     def post_process(self, content):
         ret = content

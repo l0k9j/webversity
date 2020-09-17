@@ -45,7 +45,7 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         {% for item in nav[1:] %}
-          <a href="{{ item.path }}" class="navbar-item">
+          <a href="{{ item.path }}" class="navbar-item {% if item.is_selected %}is-selected{% endif %}">
             {{ item.label }}
           </a>
         {% endfor %}
