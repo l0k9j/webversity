@@ -15,16 +15,18 @@ csv_markets=markets.csv
 <tbody>
 {% for i, r in products.iterrows() %}
 <tr>
-<td>{{ r.share|int }}</td>
+<td class="market-share"><div style="width:{{r.share|int}}%;">{{ r.share|int }}</div></td>
 <td>{{ r['product'] }}</td>
 <td>{{ r.producer }}</td>
 </tr>
 {% endfor %}
+{% with rest = 100-products['share'].sum() %}
 <tr>
-<td>{{ (100-products['share'].sum())|int }}</td>
+<td class="market-share"><div style="width:{{rest|int}}%;background-color:pink;">{{ rest|int }}</div></td>
 <td>All others</td>
 <td></td>
 </tr>
+{% endwith %}
 </tbody>
 </table>
 {% endwith %}

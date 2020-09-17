@@ -33,6 +33,13 @@ a.navbar-item.is-selected {
     background-color: white;
 }
 
+.content table td.market-share {
+    border-right: 1px solid #ccc;
+}
+td.market-share div {
+    background-color:#ccc;
+    padding: 0 0.2rem;
+}
 
 .score-5 {
     background-color: #84fd7f;
