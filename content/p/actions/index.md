@@ -10,14 +10,13 @@ Do you prefer innovation to be built from the ground up rather than our
 ### <a href="privacy-tips">Simple tips to reclaim your digital privacy</a>
 ### <a href="alternatives">Switch from Big Tech to better tech</a>
 
-## I'm a journalist or tech writers
 ### <a href="tech-writing">I write about technologies, how can I help?</a>
 
 ## I develop a Browser
 
 Suggestions:
 
-* block all third-party cookies by default
+* block all third-party cookies/tagging/storage by default
 * zero-tolerance for fingerprinting: 
     * offer users different levels of protection in your settings
     * the most advanced should have generic languages preferences, 
@@ -34,7 +33,12 @@ Suggestions:
 
 * test for non-Chrome browser: Firefox, Safari, ...
 * test with high privacy settings enabled
-* consider using alternative services to Google Analytics, Google captcha, ... 
+* consider using alternative services to Google Analytics, Google captcha (e.g. [hcaptcha](//.hcaptcha.com/)), ... 
 * don't fingerprint users
 * support other authentication methods than Google or Facebook
 * treat personal data as a toxic asset
+* keep your T&C and privacy policies concise, informative and clear. 
+A reader should be able to answer basic question about their data in less than one minute.
+E.g. which data do you collect? Where do you store it and for how long? Which companies do
+you share it with, for which reasons? How can I review my data? How can I ask for my data 
+to be removed?
