@@ -42,3 +42,15 @@ A reader should be able to answer basic question about their data in less than o
 E.g. which data do you collect? Where do you store it and for how long? Which companies do
 you share it with, for which reasons? How can I review my data? How can I ask for my data 
 to be removed?
+
+## Non-profit organisations
+
+Please be transparent about your funding sources. Name all the organisations,  
+and describe the nature and amount of their support. At least provide a range 
+and include material, human, intellectual or virtual resources they offer you.
+
+Be aware that receiving support from organisations that are involved in the domain you are
+working on should naturally question about your independence and should therefore be declared 
+publicly if you are concerned about your credibility. This also applies to intermediaries 
+(e.g. non-profit organisation which are funded by key agents in that industry). This is
+even more crucial with research or academic environment where independence is often assumed.
