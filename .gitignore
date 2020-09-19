@@ -3,6 +3,8 @@
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *$py.class
+# temp file (libreoffice)
+.~*
 
 # C extensions
 *.so
@@ -15,3 +17,4 @@
 /.idea
 /content/data/.~lock.products.csv#
 /notes.txt
+

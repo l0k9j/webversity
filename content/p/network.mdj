@@ -18,8 +18,10 @@ and influences.
 ## {{focus|title}}
 
 {% for i, site in net_js[net_js['focus']==focus].sort_values(by=['founded']).iterrows() %}
+{% if not site.hide %}
 ### **<a target="_blank" href="//{{ site.url }}">{{site.title}} ({{site.founded|int|default('?')}}, {{site.headquarters}})</a>**
 
 {{site.description}}
+{% endif %}
 {% endfor %}
 {% endfor %}
